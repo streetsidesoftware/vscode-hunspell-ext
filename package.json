@@ -2,28 +2,44 @@
     "name": "hunspell",
     "displayName": "hunspell",
     "description": "Hunspell Syntax Highlighting support",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "streetsidesoftware",
     "engines": {
-        "vscode": "^1.15.0"
+        "vscode": "^1.14.0"
     },
     "categories": [
         "Languages"
     ],
     "license": "MIT",
+    "qna": "marketplace",
+    "icon": "images/hunspell.png",
     "contributes": {
-        "languages": [{
-            "id": "hunspell.aff",
-            "aliases": ["Hunspell", "hunspell", "aff"],
-            "extensions": [".aff"],
-            "configuration": "./language-configuration.json"
-        },
-        {
-            "id": "hunspell.dic",
-            "aliases": ["Hunspell", "hunspell", "dic"],
-            "extensions": [".dic"],
-            "configuration": "./language-configuration.json"
-        }],
+        "languages": [
+            {
+                "id": "hunspell.aff",
+                "aliases": [
+                    "Hunspell",
+                    "hunspell",
+                    "aff"
+                ],
+                "extensions": [
+                    ".aff"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "hunspell.dic",
+                "aliases": [
+                    "Hunspell",
+                    "hunspell",
+                    "dic"
+                ],
+                "extensions": [
+                    ".dic"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
         "grammars": [
             {
                 "language": "hunspell.aff",
@@ -36,5 +52,12 @@
                 "path": "./syntaxes/dic.tmLanguage.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jason3S/vscode-hunspell-ext"
+    },
+    "bugs": {
+        "url": "https://github.com/Jason3S/vscode-hunspell-ext/issues"
     }
 }
