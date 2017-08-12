@@ -1,0 +1,40 @@
+{
+    "name": "hunspell",
+    "displayName": "hunspell",
+    "description": "Hunspell Syntax Highlighting support",
+    "version": "0.0.1",
+    "publisher": "streetsidesoftware",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "license": "MIT",
+    "contributes": {
+        "languages": [{
+            "id": "hunspell.aff",
+            "aliases": ["Hunspell", "hunspell", "aff"],
+            "extensions": [".aff"],
+            "configuration": "./language-configuration.json"
+        },
+        {
+            "id": "hunspell.dic",
+            "aliases": ["Hunspell", "hunspell", "dic"],
+            "extensions": [".dic"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [
+            {
+                "language": "hunspell.aff",
+                "scopeName": "source.hunspell.aff",
+                "path": "./syntaxes/aff.tmLanguage.json"
+            },
+            {
+                "language": "hunspell.dic",
+                "scopeName": "source.hunspell.dic",
+                "path": "./syntaxes/dic.tmLanguage.json"
+            }
+        ]
+    }
+}
