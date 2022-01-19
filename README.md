@@ -6,4 +6,4 @@ Support for Hunspell syntax highlighting in VS Code
 
 Support `.aff` and `.dic` files.
 
-![image](./images/screen-shot.png)
+![image](https://raw.githubusercontent.com/Jason3S/vscode-hunspell-ext/master/images/screen-shot.png)
