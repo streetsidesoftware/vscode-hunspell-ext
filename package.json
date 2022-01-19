@@ -2,13 +2,13 @@
     "name": "hunspell",
     "displayName": "hunspell",
     "description": "Hunspell Syntax Highlighting support",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "publisher": "streetsidesoftware",
     "engines": {
         "vscode": "^1.14.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "license": "MIT",
     "qna": "marketplace",

@@ -36,7 +36,6 @@
 				{ "include": "#CHECKCOMPOUNDPATTERN" }
 			]
 		},
-
 		"command-string-string": {
 			"patterns": [
 				{
@@ -113,7 +112,7 @@
 		"flag-variable": {
 			"patterns": [
 				{
-					"match": "^\\s*(COMPOUNDBEGIN|COMPOUNDMIDDLE|COMPOUNDEND|COMPOUNDPERMITFLAG|ONLYINCOMPOUND|KEEPCASE|FORBIDDENWORD|NOSUGGEST|NEEDAFFIX|CIRCUMFIX)\\s+(\\S+)",
+					"match": "^\\s*(COMPOUNDBEGIN|COMPOUNDMIDDLE|COMPOUNDEND|COMPOUNDPERMITFLAG|ONLYINCOMPOUND|COMPOUNDFLAG|COMPOUNDFORBIDFLAG|SUBSTANDARD|WARN|KEEPCASE|FORBIDDENWORD|NOSUGGEST|NEEDAFFIX|CIRCUMFIX)\\s+(\\S+)",
 					"captures": {
 						"1": { "name": "keyword" },
 						"2": { "name": "variable" }
@@ -135,7 +134,7 @@
 		"flag-string": {
 			"patterns": [
 				{
-					"match": "^\\s*(SET|TRY|WORDCHARS|KEY|FLAG|LANG)\\s+(\\S+)",
+					"match": "^\\s*(SET|TRY|WORDCHARS|KEY|FLAG|LANG|IGNORE)\\s+(\\S+)",
 					"captures": {
 						"1": { "name": "keyword" },
 						"2": { "name": "string" }
