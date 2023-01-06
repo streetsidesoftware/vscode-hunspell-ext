@@ -1,3 +1,10 @@
+---
+
+> **Warning**
+> This repository has been moved to [streetsidesoftware/vscode-cspell-dict-extensions](https://github.com/streetsidesoftware/vscode-cspell-dict-extensions)
+
+---
+
 # VS Code Hunspell Extension
 
 Support for Hunspell syntax highlighting in VS Code
