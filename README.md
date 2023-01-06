@@ -1,6 +1,3 @@
----
----
-
 
 # VS Code Hunspell Extension
 
